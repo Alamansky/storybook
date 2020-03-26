@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "components library",
   "main": "index.js",
+  "files": [
+    "src/*"
+  ],
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.1",
