@@ -19,3 +19,7 @@ const imageSizes = [
 export const Basic = () => (
   <FeaturedImage imageSizes={imageSizes} maxWidth={"1000px"} />
 );
+
+export const Error = () => (
+  <FeaturedImage imageSizes={undefined} maxWidth={"1000px"} />
+);
